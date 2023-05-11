@@ -494,7 +494,7 @@ img {
 }
 
 .flex-element:hover .overlay-label,
-.flex-element:focus .overlay-label {
+.overlay-label:focus {
   transform: translateY(0%);
 }
 
