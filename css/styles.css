@@ -493,9 +493,12 @@ img {
   overflow: hidden;
 }
 
-.flex-element:hover .overlay-label,
-.flex-element:focus .overlay-label {
-  transform: translateY(0, 0);
+.flex-element:hover .overlay-label {
+  transform: translateY(0%);
+}
+
+.app-cards:focus .overlay-label {
+  transform: translateY(0%);
 }
 
 .overlay-label {
