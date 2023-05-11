@@ -493,12 +493,9 @@ img {
   overflow: hidden;
 }
 
-.flex-element:hover .overlay-label {
-  transform: translateY(0);
-}
-
+.flex-element:hover .overlay-label,
 .flex-element:focus .overlay-label {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .overlay-label {
